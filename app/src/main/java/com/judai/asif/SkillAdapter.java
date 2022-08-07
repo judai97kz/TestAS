@@ -45,7 +45,7 @@ public class SkillAdapter extends BaseAdapter {
 
         Skills skills = skilllist.get(i);
         txskill.setText(skills.getSkill());
-        imgsk.setImageResource(skills.getImgsk());
+        imgsk.setImageBitmap(skills.getImgsk());
         return view;
     }
 }

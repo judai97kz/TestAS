@@ -1,10 +1,12 @@
 package com.judai.asif;
 
+import android.graphics.Bitmap;
+
 public class Skills {
     private String skill;
-    private int imgsk;
+    private Bitmap imgsk;
 
-    public Skills(String skill, int imgsk) {
+    public Skills(String skill, Bitmap imgsk) {
         this.skill = skill;
         this.imgsk = imgsk;
     }
@@ -17,11 +19,11 @@ public class Skills {
         this.skill = skill;
     }
 
-    public int getImgsk() {
+    public Bitmap getImgsk() {
         return imgsk;
     }
 
-    public void setImgsk(int imgsk) {
+    public void setImgsk(Bitmap imgsk) {
         this.imgsk = imgsk;
     }
 }

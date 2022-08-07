@@ -1,5 +1,7 @@
 package com.judai.asif;
 
+import android.graphics.Bitmap;
+
 import java.io.Serializable;
 
 public class AUs implements Serializable {
@@ -8,16 +10,16 @@ public class AUs implements Serializable {
     private String _class;
     private String _ele1;
     private String _ele2;
-    private int _img;
+    private Bitmap _img;
     private String _sk1;
     private String _sk2;
     private String _sk3;
-    private int _img1;
-    private int _img2;
-    private int _img3;
+    private Bitmap _img1;
+    private Bitmap _img2;
+    private Bitmap _img3;
     private String _info;
 
-    public AUs(String _star, String _name, String _class, String _ele1, String _ele2, int _img, String _sk1, String _sk2, String _sk3, int _img1, int _img2, int _img3, String _info) {
+    public AUs(String _star, String _name, String _class, String _ele1, String _ele2, Bitmap _img, String _sk1, String _sk2, String _sk3, Bitmap _img1, Bitmap _img2, Bitmap _img3, String _info) {
         this._star = _star;
         this._name = _name;
         this._class = _class;
@@ -73,11 +75,11 @@ public class AUs implements Serializable {
         this._ele2 = _ele2;
     }
 
-    public int get_img() {
+    public Bitmap get_img() {
         return _img;
     }
 
-    public void set_img(int _img) {
+    public void set_img(Bitmap _img) {
         this._img = _img;
     }
 
@@ -105,27 +107,27 @@ public class AUs implements Serializable {
         this._sk3 = _sk3;
     }
 
-    public int get_img1() {
+    public Bitmap get_img1() {
         return _img1;
     }
 
-    public void set_img1(int _img1) {
+    public void set_img1(Bitmap _img1) {
         this._img1 = _img1;
     }
 
-    public int get_img2() {
+    public Bitmap get_img2() {
         return _img2;
     }
 
-    public void set_img2(int _img2) {
+    public void set_img2(Bitmap _img2) {
         this._img2 = _img2;
     }
 
-    public int get_img3() {
+    public Bitmap get_img3() {
         return _img3;
     }
 
-    public void set_img3(int _img3) {
+    public void set_img3(Bitmap _img3) {
         this._img3 = _img3;
     }
 

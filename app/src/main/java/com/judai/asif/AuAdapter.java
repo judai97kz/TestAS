@@ -52,7 +52,7 @@ public class AuAdapter extends BaseAdapter {
         txclass.setText(aUs.get_class());
         txele.setText(aUs.get_ele1());
         String cele = aUs.get_ele2();
-        if(cele.equals("")==true)
+        if(cele.equals(" ")==true)
         {
             txele1.setText(aUs.get_ele2());
         }
@@ -63,8 +63,7 @@ public class AuAdapter extends BaseAdapter {
             txele1.setText(cele);
         }
         txst.setText(aUs.get_star());
-        imgau.setImageResource(aUs.get_img());
-
+        imgau.setImageBitmap(aUs.get_img());
         return view;
     }
 }
